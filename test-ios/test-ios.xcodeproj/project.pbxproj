@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C94160001A6FF740003EB923 /* IMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9415FFF1A6FF740003EB923 /* IMTest.m */; };
 		0B9C2CC91A6FF67E00144253 /* ChinmayGajjar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9C2CC81A6FF67E00144253 /* ChinmayGajjar.m */; };
+		460385E01A7001A70063E9A8 /* ganesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 460385DF1A7001A70063E9A8 /* ganesh.m */; };
+		C94160001A6FF740003EB923 /* IMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C9415FFF1A6FF740003EB923 /* IMTest.m */; };
 		E4B64ADB1A6EBADD00F9AA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B64ADA1A6EBADD00F9AA32 /* main.m */; };
 		E4B64ADE1A6EBADD00F9AA32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B64ADD1A6EBADD00F9AA32 /* AppDelegate.m */; };
 		E4B64AE11A6EBADD00F9AA32 /* test_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4B64ADF1A6EBADD00F9AA32 /* test_ios.xcdatamodeld */; };
@@ -30,10 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C9415FFE1A6FF740003EB923 /* IMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTest.h; sourceTree = "<group>"; };
-		C9415FFF1A6FF740003EB923 /* IMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMTest.m; sourceTree = "<group>"; };
 		0B9C2CC71A6FF67E00144253 /* ChinmayGajjar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChinmayGajjar.h; path = ../ChinmayGajjar.h; sourceTree = "<group>"; };
 		0B9C2CC81A6FF67E00144253 /* ChinmayGajjar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChinmayGajjar.m; path = ../ChinmayGajjar.m; sourceTree = "<group>"; };
+		460385DE1A7001A70063E9A8 /* ganesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ganesh.h; path = "Test-ios/ganesh.h"; sourceTree = SOURCE_ROOT; };
+		460385DF1A7001A70063E9A8 /* ganesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ganesh.m; path = "Test-ios/ganesh.m"; sourceTree = SOURCE_ROOT; };
+		C9415FFE1A6FF740003EB923 /* IMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMTest.h; sourceTree = "<group>"; };
+		C9415FFF1A6FF740003EB923 /* IMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMTest.m; sourceTree = "<group>"; };
 		E4B64AD51A6EBADD00F9AA32 /* test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B64AD91A6EBADD00F9AA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B64ADA1A6EBADD00F9AA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -102,6 +105,8 @@
 				E4B64AD81A6EBADD00F9AA32 /* Supporting Files */,
 				C9415FFE1A6FF740003EB923 /* IMTest.h */,
 				C9415FFF1A6FF740003EB923 /* IMTest.m */,
+				460385DE1A7001A70063E9A8 /* ganesh.h */,
+				460385DF1A7001A70063E9A8 /* ganesh.m */,
 			);
 			path = "test-ios";
 			sourceTree = "<group>";
@@ -234,6 +239,7 @@
 			files = (
 				E4B64ADE1A6EBADD00F9AA32 /* AppDelegate.m in Sources */,
 				E4B64ADB1A6EBADD00F9AA32 /* main.m in Sources */,
+				460385E01A7001A70063E9A8 /* ganesh.m in Sources */,
 				E4B64AE41A6EBADD00F9AA32 /* ViewController.m in Sources */,
 				0B9C2CC91A6FF67E00144253 /* ChinmayGajjar.m in Sources */,
 				E4B64AE11A6EBADD00F9AA32 /* test_ios.xcdatamodeld in Sources */,
