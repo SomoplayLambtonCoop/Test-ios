@@ -9,5 +9,5 @@
 #import "IMTest.h"
 
 @implementation IMTest
-//test
+
 @end
