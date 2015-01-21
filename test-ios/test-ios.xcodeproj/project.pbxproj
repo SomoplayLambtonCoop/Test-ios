@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B9C2CC91A6FF67E00144253 /* ChinmayGajjar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9C2CC81A6FF67E00144253 /* ChinmayGajjar.m */; };
 		E4B64ADB1A6EBADD00F9AA32 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B64ADA1A6EBADD00F9AA32 /* main.m */; };
 		E4B64ADE1A6EBADD00F9AA32 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B64ADD1A6EBADD00F9AA32 /* AppDelegate.m */; };
 		E4B64AE11A6EBADD00F9AA32 /* test_ios.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4B64ADF1A6EBADD00F9AA32 /* test_ios.xcdatamodeld */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B9C2CC71A6FF67E00144253 /* ChinmayGajjar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChinmayGajjar.h; path = ../ChinmayGajjar.h; sourceTree = "<group>"; };
+		0B9C2CC81A6FF67E00144253 /* ChinmayGajjar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChinmayGajjar.m; path = ../ChinmayGajjar.m; sourceTree = "<group>"; };
 		E4B64AD51A6EBADD00F9AA32 /* test-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B64AD91A6EBADD00F9AA32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4B64ADA1A6EBADD00F9AA32 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 		E4B64AD71A6EBADD00F9AA32 /* test-ios */ = {
 			isa = PBXGroup;
 			children = (
+				0B9C2CC71A6FF67E00144253 /* ChinmayGajjar.h */,
+				0B9C2CC81A6FF67E00144253 /* ChinmayGajjar.m */,
 				E4B64ADC1A6EBADD00F9AA32 /* AppDelegate.h */,
 				E4B64ADD1A6EBADD00F9AA32 /* AppDelegate.m */,
 				E4B64AE21A6EBADD00F9AA32 /* ViewController.h */,
@@ -225,6 +230,7 @@
 				E4B64ADE1A6EBADD00F9AA32 /* AppDelegate.m in Sources */,
 				E4B64ADB1A6EBADD00F9AA32 /* main.m in Sources */,
 				E4B64AE41A6EBADD00F9AA32 /* ViewController.m in Sources */,
+				0B9C2CC91A6FF67E00144253 /* ChinmayGajjar.m in Sources */,
 				E4B64AE11A6EBADD00F9AA32 /* test_ios.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +422,7 @@
 				E4B64AFD1A6EBADD00F9AA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4B64AFE1A6EBADD00F9AA32 /* Build configuration list for PBXNativeTarget "test-iosTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +431,7 @@
 				E4B64B001A6EBADD00F9AA32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
